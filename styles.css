@@ -20,8 +20,6 @@ article {
     margin: 0;
 }
 
-section {
-}
 .flexbox {
     display:flex;
     flex-flow: row wrap;
