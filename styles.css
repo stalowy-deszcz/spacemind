@@ -1,0 +1,127 @@
+body {
+    margin: 0 5px;
+    padding: 0;
+}
+
+header {
+    height: 33vh;
+    margin: 0;
+}
+
+footer {
+    height: 5vh;
+}
+
+nav {
+    height: 3vh;
+}
+
+article {
+    margin: 0;
+}
+
+section {
+}
+.flexbox {
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+.constelations.flexbox div {
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.g_logo  {
+    flex: 3;
+}
+
+.g_logo img {
+    width:100%;
+}
+
+
+.g_info {
+    flex: 5;
+    padding: 20px;
+}
+
+.g_pics {
+    flex: 2;
+}
+
+.g_pics img{
+    width: 100%;
+}
+
+.c_name_logo {
+    flex: 3;
+}
+
+.c_name_logo img {
+    width:100%;
+}
+
+.c_stars {
+    flex: 7;
+}
+.c_stars img {
+    width: 20%;
+}
+
+header {
+    background: url("/space_mind/images/header.jpg");
+    background-position: cover;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+footer {
+    background: url("/space_mind/images/background.jpg");
+    background-position: cover;
+    background-size: cover;
+    margin-top: 15px;
+}
+
+/* NAV BAAR */
+
+ul {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color:#222;
+    position:fixed;
+    top:0;
+    width:100%;
+    border-bottom:#ddd 1px solid;
+    border-top:#ddd 1px solid;
+}
+
+li  a{
+    padding: 7px 15px;
+    text-decoration:none;
+    color:#ddd;
+    display:block;
+    border-right:#ddd 1px solid;
+    float:left;
+    text-align:center;
+    font-size:small;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:600;
+
+
+}
+li:last-child {
+    border-right:none;
+}
+
+li a.active {
+    background-color:#ddd;
+    color:#222;
+}
+li a:hover:not(.active) {
+    color:rgb(022, 022, 022);
+    background-color: rgb(150,150,150);
+}
