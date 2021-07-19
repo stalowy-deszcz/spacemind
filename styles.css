@@ -42,6 +42,10 @@ article {
 
 
 .g_info {
+    text-align:center;
+    font-size:small;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:600;
     flex: 5;
     padding: 20px;
 }
