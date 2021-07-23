@@ -165,13 +165,25 @@ li img {
 }
 
 @media (max-width: 700px) {
-    .g_info, .g_logo, .g_pics {
+    .g_logo, .g_pics {
       min-width: 33.33%; 
     }
   }
   
+  @media (max-width: 700px) {
+    .g_info {
+      min-width: 80vh; 
+    }
+  }
+
   @media (max-width: 400px) {
-    .g_info, .g_logo, .g_pics {
-      min-width: 50%; 
+    .g_info    {
+      min-width: 60%; 
+    }
+  }
+
+  @media (max-width: 400px) {
+    .g_info, .g_pics    {
+      min-width: 20%; 
     }
   }
