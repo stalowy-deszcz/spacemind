@@ -1,5 +1,7 @@
 # spacemind
 
+https://stalowy-deszcz.github.io/spacemind/
+
 something {
 position: relative;
 }
